@@ -1,0 +1,49 @@
+Object {
+  stack: "AxiosError@http://localhost:3001/static/js/bundle.js:82273:18
+handleAbort@http://localhost:3001/static/js/bundle.js:81658:14
+EventHandlerNonNull*dispatchXhrRequest@http://localhost:3001/static/js/bundle.js:81654:5
+./node_modules/axios/lib/adapters/xhr.js/__WEBPACK_DEFAULT_EXPORT__<@http://localhost:3001/static/js/bundle.js:81574:10
+dispatchRequest@http://localhost:3001/static/js/bundle.js:82750:10
+request@http://localhost:3001/static/js/bundle.js:82190:77
+httpMethod@http://localhost:3001/static/js/bundle.js:82224:19
+wrap@http://localhost:3001/static/js/bundle.js:83322:15
+handleCreateUser@http://localhost:3001/static/js/bundle.js:486:51
+onSubmit@http://localhost:3001/static/js/bundle.js:506:11
+callCallback@http://localhost:3001/static/js/bundle.js:44823:18
+invokeGuardedCallbackDev@http://localhost:3001/static/js/bundle.js:44867:20
+invokeGuardedCallback@http://localhost:3001/static/js/bundle.js:44924:35
+invokeGuardedCallbackAndCatchFirstError@http://localhost:3001/static/js/bundle.js:44938:29
+executeDispatch@http://localhost:3001/static/js/bundle.js:49082:46
+processDispatchQueueItemsInOrder@http://localhost:3001/static/js/bundle.js:49108:26
+processDispatchQueue@http://localhost:3001/static/js/bundle.js:49119:41
+dispatchEventsForPlugins@http://localhost:3001/static/js/bundle.js:49128:27
+./node_modules/react-dom/cjs/react-dom.development.js/dispatchEventForPluginEventSystem/<@http://localhost:3001/static/js/bundle.js:49288:16
+batchedUpdates$1@http://localhost:3001/static/js/bundle.js:63680:16
+batchedUpdates@http://localhost:3001/static/js/bundle.js:44671:16
+dispatchEventForPluginEventSystem@http://localhost:3001/static/js/bundle.js:49287:21
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay@http://localhost:3001/static/js/bundle.js:46793:42
+dispatchEvent@http://localhost:3001/static/js/bundle.js:46787:88
+dispatchDiscreteEvent@http://localhost:3001/static/js/bundle.js:46764:22
+EventListener.handleEvent*addEventBubbleListener@http://localhost:3001/static/js/bundle.js:46986:14
+addTrappedEventListener@http://localhost:3001/static/js/bundle.js:49210:33
+listenToNativeEvent@http://localhost:3001/static/js/bundle.js:49154:30
+./node_modules/react-dom/cjs/react-dom.development.js/listenToAllSupportedEvents/<@http://localhost:3001/static/js/bundle.js:49165:34
+listenToAllSupportedEvents@http://localhost:3001/static/js/bundle.js:49160:25
+createRoot@http://localhost:3001/static/js/bundle.js:66443:33
+createRoot$1@http://localhost:3001/static/js/bundle.js:66789:14
+./node_modules/react-dom/client.js/exports.createRoot@http://localhost:3001/static/js/bundle.js:66865:16
+./src/index.js@http://localhost:3001/static/js/bundle.js:652:60
+options.factory@http://localhost:3001/static/js/bundle.js:93593:31
+__webpack_require__@http://localhost:3001/static/js/bundle.js:93039:33
+@http://localhost:3001/static/js/bundle.js:94175:56
+@http://localhost:3001/static/js/bundle.js:94177:12
+",
+  message: "Request aborted",
+  name: "AxiosError",
+  code: "ECONNABORTED",
+  config: {
+    …
+  },
+  request: XMLHttpRequest
+
+}
